@@ -53,35 +53,35 @@ feature-engineering/
 ## 📈 Visualizations
 
 ### 1. Correlation Structure
-![Correlation Matrix](outputs/figures/correlation_heatmap_full.png)
+![Correlation Matrix](outputs/correlation_heatmap_full.png)
 *Full correlation matrix for 24 financial features. Features cluster into expected groups: leverage, profitability, working capital, and valuation/distress. Despite some high correlations, most features provide distinct information.*
 
 ### 2. Regime-Dependent Correlations
-![Correlation Delta](outputs/figures/correlation_delta_recession.png)
+![Correlation Delta](outputs/correlation_delta_recession.png)
 *Change in correlations between recession and expansion periods (Δr = recession - expansion). Red indicates relationships that strengthen during recessions; blue indicates weakening. Asset turnover ↔ debt issuance shows largest increase (+0.87), while turnover ↔ cash flow inverts (-0.78).*
 
 ### 3. Principal Component Analysis
-![PCA Scree Plot](outputs/figures/pca_scree.png)
+![PCA Scree Plot](outputs/pca_scree.png)
 *PCA scree plot showing explained variance. PC1 captures 25% of variance (financial distress), PC2 captures 9% (business model), PC3 captures 8% (growth/liquidity). First three PCs explain 43% of total variance with clear economic interpretations. 14 components needed for 90% variance.*
 
 ### 4. Temporal Evolution - Altman Z-Score
-![Altman Z Facets](outputs/figures/facets_altman_z.png)
+![Altman Z Facets](outputs/facets_altman_z.png)
 *Altman Z-Score distribution by year (1996-2022). Right-skewed with visible leftward shifts during recessions (pink shading). Post-2008 distributions show increased dispersion, indicating greater heterogeneity in financial health.*
 
 ### 5. Temporal Evolution - Book Leverage
-![Leverage Facets](outputs/figures/facets_book_leverage.png)
+![Leverage Facets](outputs/facets_book_leverage.png)
 *Book leverage distribution by year (1996-2022). Remarkably stable distribution over 27 years, suggesting fundamental capital structure decisions change slowly. Slight median increase during 2008-09 reflects crisis-period stress.*
 
 ### 6. Temporal Evolution - Profitability (ROA)
-![ROA Facets](outputs/figures/facets_profitability_ni_at.png)
+![ROA Facets](outputs/facets_profitability_ni_at.png)
 *ROA distribution by year (1996-2022). Clear cyclicality with left shifts during recessions (2001, 2008-09, 2020) as more firms report losses. Post-2010 compression suggests reduced profitability dispersion across firms.*
 
 ### 7. Temporal Evolution - Quick Ratio
-![Quick Ratio Facets](outputs/figures/facets_quick_ratio.png)
+![Quick Ratio Facets](outputs/facets_quick_ratio.png)
 *Quick ratio distribution by year (1996-2022). Heavy right skew with consistent shape over time. Subtle rightward shift in 2020-2021 suggests COVID-era cash accumulation by firms.*
 
 ### 8. Temporal Evolution - Asset Turnover
-![Asset Turnover Facets](outputs/figures/facets_total_asset_turnover.png)
+![Asset Turnover Facets](outputs/facets_total_asset_turnover.png)
 *Asset turnover distribution by year (1996-2022). Clear secular decline from ~1.0 (late 1990s) to ~0.7 (2020s), indicating structural shift toward more capital-intensive business models. Recession periods show increased dispersion.*
 
 ---
