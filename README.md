@@ -239,10 +239,6 @@ This project was completed as part of academic coursework demonstrating proficie
 - Dimensionality reduction and interpretation
 - Technical communication and visualization
 
-The analysis addresses three key research questions:
-1. Do financial ratios provide distinct information suitable for bankruptcy prediction?
-2. How do financial relationships change during economic stress periods?
-3. What are the fundamental dimensions of corporate financial variation?
 
 ---
 
