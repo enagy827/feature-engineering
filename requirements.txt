@@ -1,0 +1,18 @@
+# Core data analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine learning and preprocessing
+scikit-learn>=1.2.0
+
+# Jupyter environment
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.20.0
+
+# Optional utilities
+openpyxl>=3.0.0  # For Excel file support
